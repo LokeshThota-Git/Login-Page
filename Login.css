@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body
+{
+    
+    background-image: url('https://images.unsplash.com/photo-1724427245334-abad341536c7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size:cover;
+    
+}
+.greeting{
+    margin: 100px 0 auto;
+    text-align: center;
+}
+.container
+{
+    width: 100%;
+    max-width: 35rem;
+    height: auto;
+    margin : 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form{
+    width: 75%;
+    height: auto;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding-bottom: 1rem ;
+    color: white;
+}
+.form-header{
+    border-radius: 8px 8px 0 0;
+    background-color:rgb(192, 187, 177);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: black;
+}
+.Logo{
+    width: 4.5em;
+
+}
+.Logo-div{
+    display: flex;
+    align-items: center;
+   
+}
+.h2{
+    display: flex;
+    align-items: center;
+}
+h2{
+    margin: 0;
+}
+
+.form-body{
+    padding: 20px;
+    width: 100%;
+
+}
+a{
+    color: rgb(124, 124, 124);
+    font-size: 12px;
+}
+
+.field{
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: 1px solid lightgray;
+    outline: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    background-color: rgb(205, 200, 180);
+
+}
+button{
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    background :rgb(205, 200, 180);
+    color:black;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    border: 1px solid black;
+
+
+}
+button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 8px;
+}
+.remember-me{
+    font-size: 12px;
+}
+.forgot{
+    float: right;
+}
+.options{
+    padding: 0 10px;
+    margin: 15px 0 25px;
+
+}
+.form-footer{
+    text-align: center;
+    font-size: 12px;
+    color:white;
+}
+.remember-me{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.checkbox{
+    color: black;
+    cursor: pointer;
+    
+}
